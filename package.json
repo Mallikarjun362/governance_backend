@@ -6,7 +6,7 @@
     "mongoose": "^8.0.3"
   },
   "scripts": {
-    "start": "node index.js", 
+    "start": "node app.js", 
     "build": "npm install" 
   }
 }
