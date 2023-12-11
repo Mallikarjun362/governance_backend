@@ -45,6 +45,10 @@ app.post('/save-proposal', async (req, res) => {
   }
 });
 
+app.get('/hello', async (req, res) => {
+  res.status(200).json({ message: "Hello" });
+});
+
 // Get all proposal details from MongoDB
 app.get('/get-all-proposals', async (req, res) => {
   try {
